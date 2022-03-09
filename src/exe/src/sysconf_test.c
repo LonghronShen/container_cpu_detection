@@ -7,7 +7,7 @@
 
 int main()
 {
-    printf("_SC_NPROCESSORS_ONLN = %ld\n", sysconf(_SC_NPROCESSORS_ONLN));
+    printf("%ld\n", sysconf(_SC_NPROCESSORS_ONLN));
 
     return 0;
 }

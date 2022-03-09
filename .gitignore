@@ -44,3 +44,5 @@ cmake-build-debug/
 .vscode/
 /.vs
 .ci_env*
+
+.cache/
